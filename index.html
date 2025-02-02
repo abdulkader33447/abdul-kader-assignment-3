@@ -41,6 +41,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- fon awesome -->
+    <script
+      src="https://kit.fontawesome.com/9a631af9fd.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- tailwind -->
     <style type="text/tailwindcss">
@@ -79,7 +84,7 @@
                 >
               </div>
             </div>
-            <div class="flex justify-center hidden lg:flex">
+            <div class="justify-center hidden sm:flex">
               <ul class="gap-7 menu-horizontal px-1">
                 <li><a href="">Find a pet</a></li>
                 <li><a href="">Breeds</a></li>
@@ -239,7 +244,7 @@
 
     <!-- tranding section -->
     <section
-      class="w-full lg:bg-[#FFF9F4] lg:mt-28 font-ADLaM lg:pb-32 py-5 pt-14 lg:pt-32"
+      class="w-full lg:bg-[#FFF9F4] lg:mt-28 font-ADLaM lg:pb-32 py-5 pt-14 lg:pt-32 lg:mb-32 mb-12"
     >
       <div class="lg:w-5/6 mx-auto">
         <h2 class="lg:text-3xl text-xl ml-3 mb-4 lg:mb-10">
@@ -249,18 +254,24 @@
         <div class="lg:flex mx-auto">
           <!-- products 001 -->
           <div
-            class="h-[340px] lg:mr-6 col-span-2 lg lg:row-span-3 bg-[#F9DF8A] rounded-xl"
+            class="h-[350px] lg:h-[380px] lg:mr-6 col-span-2 lg:row-span-3 bg-[#F9DF8A] rounded-xl"
           >
-            <div class="mt-8 ml-5 w-3/4">
-              <h2 class="text-2xl font-ADLaM mb-3">T-Shirt For Dog</h2>
+            <div class="sm:mt-8 sm:pt-0 pt-4 ml-5 w-3/4">
+              <h2 class="text-2xl font-ADLaM lg:mb-3 mb[9px]">
+                T-Shirt For Dog
+              </h2>
               <p class="text-sm font-normal font-Sora">
                 Discover a world of treats, today, abd essentials handpicked for
               </p>
-              <button class="py-2 px-5 bg-[#FFf] rounded-lg font-Sora mt-3">
+              <button
+                class="py-2 px-5 bg-[#FFf] rounded-lg font-Sora lg:mt-3 mt[9px]"
+              >
                 Shop Now
               </button>
             </div>
-            <div class="lg:ml-[240px] ml-[150px] -mt-[40px] lg:-mt-[140px] z-0">
+            <div
+              class="lg:ml-[240px] ml-[150px] sm:pb-0 pb-5 -mt-[40px] lg:-mt-[115px]"
+            >
               <img
                 class="bg-no-repeat bg-center"
                 src="c1-assets/cute-pet-small.png"
@@ -268,186 +279,160 @@
               />
             </div>
           </div>
-          <div class="grid lg:grid-cols-3 lg:gap-[18px] grid-cols-2">
+          <div
+            class="grid lg:grid-cols-3 lg:gap-[18px] gap-5 justify-items-center grid-cols-2 sm:pt-0 pt-5"
+          >
             <!-- products 1 -->
             <div
-              class="bg-white lg:border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] lg:max-h-28 lg:p-3 lg:pr-16gap-4 items-center font-Sora flex"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 sm:flex gap-4 items-center font-Sora hidden"
             >
-              <div>
-                <img
-                  class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14 lg:block"
-                  src="c1-assets/dog-cartoon.png"
-                  alt=""
-                />
-              </div>
-              <div class="lg:block">
+              <img
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/mouse-cartoon.png"
+                alt=""
+              />
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
                 <i class="fa-solid fa-star text-[#FFC107]">
-                  <span class="text-[#111111] font-Sora text-base font-normal"
-                    >4.5</span
-                  ></i
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="text-lg font-[500]">Pet Bed</h4>
-                <h6 class="text-base font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 2 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] lg:p-3 p-2 rounded-xl lg:h-14 lg:w-14"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
                 src="c1-assets/mouse-cartoon.png"
                 alt=""
               />
-              <div>
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
                 <i class="fa-solid fa-star text-[#FFC107]">
-                  <span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 3 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
                 src="c1-assets/pet-couch.png"
                 alt=""
               />
-              <div>
-                <i class="fa-solid fa-star text-[#FFC107]"
-                  ><span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
+                <i class="fa-solid fa-star text-[#FFC107]">
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 4 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
-                src="c1-assets/rabbit-cartoon.png"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/mouse-cartoon.png"
                 alt=""
               />
-              <div>
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
                 <i class="fa-solid fa-star text-[#FFC107]">
-                  <span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 5 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
-                src="c1-assets/dog-cartoon.png"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/fish-cartoon.png"
                 alt=""
               />
-              <div>
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
                 <i class="fa-solid fa-star text-[#FFC107]">
-                  <span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 6 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
-                src="c1-assets/pet-couch.png"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/mouse-cartoon.png"
                 alt=""
               />
-              <div>
-                <i class="fa-solid fa-star text-[#FFC107]"
-                  ><span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
+                <i class="fa-solid fa-star text-[#FFC107]">
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 7 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
-                src="c1-assets/cat-cartoon.png"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/rabbit-cartoon.png"
                 alt=""
               />
-              <div>
-                <i class="fa-solid fa-star text-[#FFC107]"
-                  ><span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
+                <i class="fa-solid fa-star text-[#FFC107]">
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 8 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
-                src="c1-assets/dog-cartoon.png"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/mouse-cartoon.png"
                 alt=""
               />
-              <div>
-                <i class="fa-solid fa-star text-[#FFC107]"
-                  ><span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
+                <i class="fa-solid fa-star text-[#FFC107]">
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
             <!-- products 9 -->
             <div
-              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-40 h-24 lg:max-h-28 lg:p-3 lg:pr-16 flex gap-4 items-center font-Sora"
+              class="bg-white border border-[rgba(17,17,17,0.1)] rounded-xl lg:w-[300px] w-32 h-[60px] lg:h-28 lg:p-3 p-2 lg:pr-16 flex gap-4 items-center font-Sora"
             >
               <img
-                class="bg-[#FFF9F4] p-3 rounded-xl h-14 w-14"
-                src="c1-assets/fish-cartoon.png"
+                class="bg-[#FFF9F4] lg:p-3 p-1 rounded-xl lg:h-14 lg:w-14 h-8 w-8"
+                src="c1-assets/pet-couch.png"
                 alt=""
               />
-              <div>
-                <i class="fa-solid fa-star text-[#FFC107]"
-                  ><span
-                    class="text-[#111111] font-Sora text-[14px] lg:text-base font-normal"
-                    >4.5</span
-                  ></i
+              <div class="font-Sora lg:text-sm text-[7px] font-normal">
+                <i class="fa-solid fa-star text-[#FFC107]">
+                  <span class="text-[#111111]">4.5</span></i
                 >
-                <h4 class="lg:text-lg text-[14px] font-[500]">Pet Bed</h4>
-                <h6 class="lg:text-base text-[14px] font-normal">$39.99</h6>
+                <h4 class="lg:text-lg text-[11px] font-[500]">Pet Bed</h4>
+                <h6 class="lg:text-base text-[9px] font-normal">$39.99</h6>
               </div>
             </div>
           </div>
@@ -457,38 +442,119 @@
 
     <!-- Everyday low Price section -->
     <section class="w-5/6 mx-auto font-ADLaM lg:mt-32 lg:mb-32">
-      <h3 class="text-3xl lg:mb-11">Everyday low Price</h3>
+      <h3 class="lg:text-3xl text-xl mb-7 lg:mb-11">Everyday low Price</h3>
 
       <!-- card container -->
-      <div class="lg:flex flex-row gap-5 ">
-
+      <div class="flex sm:flex-row sm:gap-5 flex-col gap-3">
         <!-- card 1 -->
-        <div class="bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl flex">
-          <div class="lg:ml-20 lg:my-32 text-[#000]">
-            <p class="font-Sora text-base lg:mb-3 ">Under Price</p>
-            <h4 class="text-3xl lg:mb-2 ">Pet Grooming Mitt</h4>
-            <h5 class="text-white text-xl lg:mb-4">(Easy Hair Removal)</h5>
-            <h2 class="text-[50px]">$7.99</h2>
+        <div
+          class="bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl flex sm:flex-row flex-col"
+        >
+          <div class="lg:ml-20 lg:mt-32 mt-5 ml-4 text-[#000]">
+            <p class="font-Sora lg:text-base lg:mb-3 lg:block hidden">
+              Under Price
+            </p>
+            <h4 class="lg:text-3xl lg:mb-2 text-lg">Pet Grooming Mitt</h4>
+            <h5 class="text-white text-xl lg:mb-4 lg:block hidden">
+              (Easy Hair Removal)
+            </h5>
+            <h2 class="sm:text-[50px] sm:text-[#000] text-[#fff] text-2xl">
+              $7.99
+            </h2>
           </div>
           <div>
-            <img src="c1-assets/cute-dog-mid.png" alt="" />
+            <img
+              class="lg:-mb-10 ml-10 w-[100%]"
+              src="c1-assets/cute-dog-mid.png"
+              alt=""
+            />
           </div>
         </div>
 
         <!-- card 2 -->
-        <div class="bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-xl flex ">
-          <div class=" ">
-            <h3 class="text-3xl">T-Shirt for Dogs</h3>
-            <h1 class="text-[#FFDC26] text-5xl">$7.99</h1>
+        <div
+          class="bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-xl flex sm:flex-row flex-col"
+        >
+          <div class="lg:mt-12 lg:ml-9 mt-6 ml-3">
+            <h3 class="lg:text-3xl">T-Shirt for Dogs</h3>
+            <h1 class="text-[#FFDC26] lg:text-5xl text-2xl">$7.99</h1>
           </div>
           <div class="">
-            <img src="c1-assets/cute-pet-mid.png" alt="">
+            <img
+              class="lg:mt-[130px] w-[100%]"
+              src="c1-assets/cute-pet-mid.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="w-full bg-[#FFDC2680] relative sm:h-[655px] h-[750px] sm:mt-[405px] mt-80">
+      <!-- input card -->
+      <div
+        class="absolute sm:left-[136px] left-[30px] bg-[#FFF9F4] w-5/6 mx-auto flex sm:flex-row sm:gap-28 flex-col lg:py-9 py-8 lg:pl-20 rounded-2xl lg:-mt-60 -mt-64"
+      >
+        <div>
+          <img src="c1-assets/cute-pet-mid.png" alt="" />
+        </div>
+        <div
+          class="text-[#111111] font-Sora lg:pt-12 lg:text-start text-center"
+        >
+          <h2 class="lg:text-3xl text-xl font-ADLaM lg:mb-5 mb-3">
+            Get Pawsome News!
+          </h2>
+          <p class="lg:text-lg text-sm">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <input
+            class="lg:py-4 py-2 lg:pl-4 pl-2 lg:pr-64 pr-28 rounded-lg lg:my-9 my-4 lg:text-base text-xs"
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter email...."
+          />
+          <div>
+            <button
+              class="lg:text-lg text-sm py-2 px-7 bg-[#FFDC26] rounded-lg"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- footer 2 -->
+      <div class="flex sm:flex-row flex-col w-5/6 mx-auto sm:justify-between lg:pt-80 pt-[365px]">
+        <div class="">
+          <div class="flex items-center lg:gap-3 gap-2">
+            <img src="c1-assets/logo-footer.png" alt="" />
+            <h3 class="sm:text-2xl text-base">
+              Browse<span class="text-[#FFDC26]">4</span>Pets
+            </h3>
+          </div>
+          <p class="lg:w-[400px] lg:text-lg text-sm lg:mt-7 mt-5 lg:mb-0 mb-8">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <div>
+          <ul class="lg:space-y-6 space-y-4 lg:mb-0 mb-6 lg:text-lg text-sm">
+            <li><a href="#">Find a pet</a></li>
+            <li><a href="#">Breeds</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="text-start">
+          <p class="lg:text-base text-xs">Follow Us</p>
+          <div class="lg:space-x-7 space-x-5">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
